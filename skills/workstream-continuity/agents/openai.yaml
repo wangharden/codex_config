@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workstream Continuity"
+  short_description: "按需接续研究、保存side并合并有效知识"
+  default_prompt: "Use $workstream-continuity as the single research router: resolve the relevant workstream, read short current state plus relevant experiment cards and applicable corrections, check freshness and validity, incrementally archive available public messages, and merge evidence-backed closeout changes serially before updating state. Preserve source gaps and unresolved dependencies; do not assume a side-close hook or export hidden reasoning."
